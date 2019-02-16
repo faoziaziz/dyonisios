@@ -1,0 +1,22 @@
+extends layout
+block content
+  h1= judul
+  div(id="input_page_wrapper")
+    div(id="input")
+      form(id="input_form", name="books", method="post", action="/users")
+
+        div(class="label_box")
+          label(for="isbn") userID
+        input(type="number", placeholder="userID ", name="userID")
+
+        div(class="label_box")
+          label(for="name") Name
+        input(type="text", placeholder="name", name="name")
+
+        div(class="label_box")
+          label(for="username") username
+        input(type="text", placeholder="username", name="username")
+
+
+
+        button(id="submit", name="submit", type="submit") submit
