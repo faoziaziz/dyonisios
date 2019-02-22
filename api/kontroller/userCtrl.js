@@ -1,4 +1,6 @@
-//
+/*
+  Ini untuk bagian ke user
+*/
 
 
 const User = require('../models/userSchema.js');

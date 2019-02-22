@@ -1,5 +1,5 @@
 module.exports = (app) => {
-  const page = require('../kontroller/page/pageCtrl.js');
+  //const page = require('../kontroller/page/pageCtrl.js');
   const fdtd = require('../kontroller/page/fdtdCtrl.js');
   // Route ke fdtd
   app.get('/fdtd', fdtd.fdtd);
