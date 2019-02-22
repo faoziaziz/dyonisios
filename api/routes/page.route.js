@@ -3,4 +3,7 @@ module.exports = (app) => {
   // Route ke fdtd
   app.get('/fdtd', page.fdtd);
 
+  // Route ke Posting
+  app.get('/appPost', page.appPost);
+
 }
