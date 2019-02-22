@@ -25,3 +25,4 @@ module.exports = (app) => {
 
     app.get('/kalista', user.kalistaTest);
 }
+

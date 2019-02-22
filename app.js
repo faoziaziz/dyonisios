@@ -29,9 +29,8 @@ mongoose.connect(dbConfig.url,{
   process.exit();
 });
 require('./api/routes/user.route.js')(app);
+require('./api/routes/page.route.js')(app);
 
-app.use('/', indexRouter);
-app.use('/users', usersRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
