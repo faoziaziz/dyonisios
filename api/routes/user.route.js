@@ -22,7 +22,5 @@ module.exports = (app) => {
         judul: "Daftarin Bang"
       });
     });
-
-    app.get('/kalista', user.kalistaTest);
 }
 
